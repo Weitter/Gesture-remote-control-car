@@ -96,28 +96,28 @@ int main(int argc, char** argv)
 		//circle(dst, Point(center.x,center.y), (int)radius, Scalar(0,255,0), 2);
 		if((WIDTH/2-center.x)<-20) 
                 {  
-                    	printf("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<left\n");
+                    	printf("left\n");
 			msg.left=1;                		 
                 }
 		else
 			msg.left=0;  
 		 if((WIDTH/2-center.x)>20)  
                	{  
-                     	printf(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>right\n");  
+                     	printf("right\n");  
                      	msg.right=1;  	 
                 }
 		else
 			msg.right=0;	  
                 if((HEIGHT/2-center.y)<-20)  
                 {	  
-                       printf("downVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n"); 
+                       printf("down\n"); 
 		       msg.down=1;   
                 } 
 		else
 			msg.down=0;    
                 if((HEIGHT/2-center.y)>20)  
                 {  
-                    	printf("upAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa\n");  
+                    	printf("up\n");  
 			msg.up=1;    
                 }
 		else

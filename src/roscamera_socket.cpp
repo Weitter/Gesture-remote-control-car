@@ -117,28 +117,28 @@ int main(int argc, char** argv)
 		//circle(dst, Point(center.x,center.y), (int)radius, Scalar(0,255,0), 2);
 		if((WIDTH/2-center.x)<-20) 
                 {  
-                    	printf("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<left\n");  
+                    	printf("<------left\n");  
 		 	write(socket_fd,"l1",2);          		 
                 }
 		else
 			write(socket_fd,"l0",2);  
 		 if((WIDTH/2-center.x)>20)  
                	{  
-                     	printf(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>right\n");  
+                     	printf("right-------->\n");  
                      	write(socket_fd,"r1",2);  
                 }
 		else
 			write(socket_fd,"r0",2);  	  
                 if((HEIGHT/2-center.y)<-20)  
                 {	  
-                       printf("downVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n"); 
+                       printf("downVVVVVVVVVVVV\n"); 
 		      write(socket_fd,"d1",2);       
                 } 
 		else
 		      write(socket_fd,"d0",2);   
                 if((HEIGHT/2-center.y)>20)  
                 {  
-                    	printf("upAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa\n");  
+                    	printf("up^^^^^^^^^^^^^^6\n");  
 			write(socket_fd,"u1",2);          
                 }
 		else
