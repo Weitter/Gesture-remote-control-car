@@ -1,5 +1,4 @@
-bell
-====
+# bell
 
 This is a gesture recognition remote control project based on c++ language, ROS platform 
 
@@ -23,7 +22,7 @@ source ~/catkin_ws/devel/setup.bash
 roscore
 rosrun rosOpenCV roscamera4
 ```
-Finally, after the installation is completed,show ![](https://github.com/Weitter/bell/blob/master/img/test.png)
+Finally, after the installation is completed,show ![](http://github.com/Weitter/bell/raw/master/img/test.png)
 
 Author
 ------
