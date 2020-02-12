@@ -17,10 +17,15 @@ Installation steps
 you need: 
 ```shell
 git clone https://github.com/Weitter/bell.git
+
 cd ~/catkin_ws && catkin_make
+
 source ~/catkin_ws/devel/setup.bash
+
 roscore
+
 rosrun rosOpenCV roscamera4
+
 ```
 Finally, after the installation is completed,show:
 
