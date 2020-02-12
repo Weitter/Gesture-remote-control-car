@@ -11,7 +11,7 @@ The following guide will help you install and run the project on your local mach
 Installation requirements 
 -------------------------
 
-ROS Melodic Morenia or ROS Kinetic Kame system is necessary
+ROS `Melodic` Morenia or ROS `Kinetic` Kame system is necessary
 
 Installation steps 
 ------------------
@@ -23,7 +23,7 @@ source ~/catkin_ws/devel/setup.bash
 roscore
 rosrun rosOpenCV roscamera4
 ```
-Finally, after the installation is completed,show ![demo](https://github.com/Weitter/bell/blob/master/img/test.png)
+Finally, after the installation is completed,show ![](https://github.com/Weitter/bell/blob/master/img/test.png)
 
 Author
 ------
