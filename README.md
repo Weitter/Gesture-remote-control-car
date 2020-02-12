@@ -22,7 +22,7 @@ source ~/catkin_ws/devel/setup.bash
 roscore
 rosrun rosOpenCV roscamera4
 ```
-Finally, after the installation is completed,show ![demo](http://github.com/Weitter/bell/raw/master/img/test.png)
+Finally, after the installation is completed,show ![demo](img/2.png)
 
 Author
 ------
