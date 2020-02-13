@@ -2,17 +2,17 @@
 
 This is a gesture recognition remote control project based on c++ language, ROS platform 
 
-## Tutorials 
+### Tutorials 
 
 
 The following guide will help you install and run the project on your local machine for development and testing. 
 
-### Installation requirements 
+##### Installation requirements 
 
 
 ROS `Melodic` Morenia or ROS `Kinetic` Kame system is necessary
 
-### Installation steps 
+##### Installation steps 
 
 you need: 
 ```shell
@@ -31,10 +31,10 @@ Finally, after the installation is completed,show:
 
 ![demo](img/3.png)
 
-## Author
+### Author
 
 weitter 
 
-## Thanks 
+### Thanks 
 
 The project reference network
